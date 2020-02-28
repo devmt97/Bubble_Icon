@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.suntech.bubble_drag.widget.BubbleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.panshen.xps.popupcirclemenu.PopupCircleView
+        android:id="@+id/PopupMenu_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <com.panshen.xps.popupcirclemenu.PopupButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:pb_color="#ffffff"
+            app:pb_color_checked="#FFEBEBEB" />
+
+        <com.panshen.xps.popupcirclemenu.PopupButton
+            android:id="@+id/pb_like_dot"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:pb_background="@drawable/ic_menu_record"
+            app:pb_checkable="true"
+            app:pb_color="#ffffff"
+            app:pb_color_checked="#57c8e2" />
+
+        <ImageView
+            android:id="@+id/iv_dot"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_recording" />
+    </com.panshen.xps.popupcirclemenu.PopupCircleView>
+</com.suntech.bubble_drag.widget.BubbleLayout>

@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.suntech.bubble_drag">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application>
+        <service
+            android:name=".widget.BubblesService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>
